@@ -1,7 +1,7 @@
 
 require("dotenv").config()
 import {Link} from "react-router-dom"
-const link = process.env.Link;
+const link = process.env.link;
 
 
 export default function Navbar(){

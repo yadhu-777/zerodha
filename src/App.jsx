@@ -9,7 +9,7 @@ import Product from './components/products/product'
 import Support from './components/support/support'
 import Signup from './components/signup/signup'
 import Login from './login/login'
-import Dashboard from "../../dashboard/src/components/dashboard";
+
 function App() {
   const [count, setCount] = useState(0)
 

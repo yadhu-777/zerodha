@@ -1,5 +1,5 @@
 import { useState  } from "react"
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 
@@ -35,7 +35,7 @@ toast.success(msg, {
 async function Submithandle(e){
 e.preventDefault();
 try{
-    const {data} = await axios.post("http://localhost:3000/signup",{
+    const {data} = await axios.post("https://zerodhabackend-tszm.onrender.com/signup",{
     ...inputval
 },{
     withCredentials:true
