@@ -1,0 +1,107 @@
+
+
+
+#ll{
+    margin-bottom: 3rem;
+}
+#icons i{
+margin-right:1rem;
+font-size: 21px;
+
+}
+.line{
+    list-style-type: none;
+    text-align: start;
+}
+
+
+#inputfield{
+    display: flex;
+    flex-direction: column;
+   
+}
+#herosignup{
+    margin: 3rem 0rem 0rem 0rem;
+}
+#inputfield input{
+    padding: 8px;
+    margin-bottom: 19px;
+border-radius: 8px;
+text-align: center;
+width: 80%;
+}
+#navoptions #options {
+    margin-right: 24px;
+}
+nav{
+    padding:3rem !important;
+}
+
+
+.footer-text{
+    display: flex;
+    justify-content: space-evenly;
+   padding: 0rem 7rem 0rem 7rem;
+}
+.filed a{
+    margin-right: 1rem;
+}
+#outer{
+    background-color: #387ed1;
+    color: white;
+}
+
+#outer a{
+   
+    color: white;
+}
+
+.loginOuter{
+    display: flex;
+    justify-content: center;
+}
+
+
+.innerLogin{
+
+padding: 2rem;
+width: 100% ;
+
+}
+.innerLogin form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.innerLogin input{
+    padding: 6px;
+    border: 1px solid rgb(137, 140, 142);
+    border-radius: 4px;
+}
+
+#btn{
+    width: 40%;
+    margin-top: 1.5rem;
+}
+
+.loginDiv label {
+    margin: 1rem 0rem 13px 0rem
+
+}
+.loginDiv{
+  
+    border: 1px solid black;
+    width: 30%;
+max-height: 50vh;
+overflow-y: auto;
+ 
+}
+
+
+body,html{
+    overflow: auto !important;
+}
+.tadejump{
+    display: flex;
+    padding: 2rem;
+}
