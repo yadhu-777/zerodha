@@ -28,7 +28,7 @@ export default function Navbar(){
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="hamburgerDropdown">
       <div className="tadejump">
         <img style={{width:"15%"}} src="media/image/tradekite.png"/>
-      <li><a class="dropdown-item" href="https://dashboard-gkw4-yadhu-777s-projects.vercel.app/nav" target="blank">Kite - Trading platform</a></li>
+      <li><a class="dropdown-item" href="https://dashboard-gkw4-yadhu-777s-projects.vercel.app" target="blank">Kite - Trading platform</a></li>
   
       </div>
     </ul>
