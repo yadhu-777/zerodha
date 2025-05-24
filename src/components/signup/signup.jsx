@@ -35,7 +35,7 @@ toast.success(msg, {
 async function Submithandle(e){
 e.preventDefault();
 try{
-    const {data} = await axios.post("https://dashboard-yadhu-777s-projects.vercel.app/signup",{
+    const {data} = await axios.post("https://dashboard-yadhu-777s-projects.vercel.app/Signup",{
     ...inputval
 },{
     withCredentials:true
