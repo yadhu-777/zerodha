@@ -35,7 +35,7 @@ toast.success(msg, {
 async function Submithandle(e){
 e.preventDefault();
 try{
-    const {data} = await axios.post("https://zerodha-yadhu-777s-projects.vercel.app/Signup",{
+    const {data} = await axios.post("https://zerodhabackend-tszm.onrender.com/Signup",{
     ...inputval
 },{
     withCredentials:true
