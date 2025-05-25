@@ -6,14 +6,14 @@ import {Link} from "react-router-dom"
 
 export default function Navbar(){
     return(
-      <nav style={{height:"6rem"}} class="navbar navbar-expand-lg bg-body-tertiary  mb-2">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/"><img style={{width:"30%"}} src="media/image/logo.svg"/></a>
+      <nav  id="navloc" className="navbar navbar-expand-lg bg-body-tertiary  mb-2 ">
+      <div id="outnav" class="container">
+        <a id="imgnav" class="navbar-brand" href="/"><img style={{width:"30%"}} src="media/image/logo.svg"/></a>
          
 
 
        
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div className="disapper" >
           <div id="navoptions" class="navbar-nav ms-auto">
             <Link id="options" className="nav-link active" to={"/Signup"}>Signup</Link>
             <Link id="options"  className="nav-link active" to={"/About"}>About</Link>
@@ -21,20 +21,29 @@ export default function Navbar(){
             <Link   id="options"   className="nav-link active" to={"/Price"}>Pricing</Link>
             <Link   id="options"   className="nav-link active" to={"/Support"}>Support</Link>
                <Link   id="options"   className="nav-link active" to={"/Login"}>Login</Link>
+                  </div>
           <div class="dropdown">
-    <button class="btn btn-white " type="button" id="hamburgerDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+    <button className="btn btn-white " type="button" id="hamburgerDropdown" data-bs-toggle="dropdown" aria-expanded="false">
      <span  className="navbar-toggler-icon" ></span>
     </button>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="hamburgerDropdown">
+    <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="hamburgerDropdown">
       <div className="tadejump">
-        <img style={{width:"15%"}} src="media/image/tradekite.png"/>
-      <li><a class="dropdown-item" href="https://dashboard-yadhu-777s-projects.vercel.app/" target="blank">Kite - Trading platform</a></li>
-  
+       <div className="navfirst">
+ <img style={{width:"15%"}} src="media/image/tradekite.png"/>
+      <li><a className="dropdown-item" href="https://dashboard-yadhu-777s-projects.vercel.app/" target="blank">Kite - Trading platform</a></li>
+
+       </div>
+   <Link id="optionss" className="nav-link active" to={"/Signup"}>Signup</Link>
+            <Link id="optionss"  className="nav-link active" to={"/About"}>About</Link>
+            <Link   id="optionss"    className="nav-link active" to={"/Product"}>Product</Link>
+            <Link   id="optionss"   className="nav-link active" to={"/Price"}>Pricing</Link>
+            <Link   id="optionss"   className="nav-link active" to={"/Support"}>Support</Link>
+               <Link   id="optionss"   className="nav-link active" to={"/Login"}>Login</Link>
       </div>
     </ul>
   </div>
 
-          </div>
+       
         </div>
       </div>
     </nav>

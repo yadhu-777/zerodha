@@ -103,5 +103,90 @@ body,html{
 }
 .tadejump{
     display: flex;
-    padding: 2rem;
+    padding: 1rem;
 }
+
+#award-img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+#varsity-img{
+    width: 100%;
+}
+
+@media (max-width:1000px){
+
+    #footerfirstchange{
+       display: flex;
+       flex-direction: column;
+
+       font-size: 12px;
+    }
+    #footerfirstchange #bold{
+     font-weight: bold;
+    }
+
+#navloc{
+    display: flex !important;
+    align-items: center !important;
+    padding: 2rem !important;
+
+}
+#directionchange{
+    margin-top: 0rem !important;
+}
+#footerchange{
+    display: flex;
+    flex-wrap: wrap !important;
+}
+
+#directionchange2{
+    display: flex;
+    flex-direction: column-reverse;
+ margin-top: 0rem !important;
+ padding: 0 !important;
+}
+
+#stabalize{
+   padding: 1rem;
+}
+
+.tadejump{
+    display: flex;
+padding: 2rem;
+   flex-wrap: wrap;
+}
+
+.tadejump #optionss{
+    margin: 1rem 1rem 1rem 1rem;
+}
+.tadejump .navfirst{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 1rem;
+}
+
+#imgnav{
+    flex: 1;
+}
+
+
+#navoptions{
+    display: none;
+}
+.navoptions{
+    display: flex;
+}
+}
+
+.disapper{
+    display: flex;
+}
+
+@media (min-width:1001px){
+#optionss{
+    display: none;
+}
+}
+

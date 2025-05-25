@@ -3,11 +3,11 @@
 export default function Varsity(){
     return(
         <div className="container">
-            <div className="row p-5">
-                <div className="col-6 ">
-                    <img src="media/image/education.svg"/>
+            <div id="directionchange" className="row p-5">
+                <div className="col-md-6 ">
+                    <img id="varsity-img" src="media/image/education.svg"/>
                 </div>
-                <div style={{padding:"5rem"}} className="col-6 ">
+                <div style={{padding:"5rem"}} className="col-md-6 ">
                     <h2>
                     Free and open market education</h2>
                     <p>Varsity, the largest online stock market education book in the world covering everything from the basics to advanced trading.</p>

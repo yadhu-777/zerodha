@@ -3,13 +3,13 @@
 export default function Award(){
     return(
        <div className="container ">
-         <div  style={{marginTop:"9rem"}} className="row  p-5">
-            <div className="col-6">
-               <img src="media/image/largestBroker.svg" alt="award"/>
+         <div id="directionchange" style={{marginTop:"9rem"}} className="row  p-5">
+            <div id="stabalize" className="col-md-6">
+               <img id="award-img" src="media/image/largestBroker.svg" alt="award"/>
 
 
             </div>
-            <div className="col-6 p-5">
+            <div className="col-md-6 p-5">
                <h2>
                   
 Largest stock broker in india
