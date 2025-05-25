@@ -71,17 +71,17 @@ setInputval(
     
     return(
         <div className="container">
-            <div className="row text-center">
+            <div className="row text-center p-2">
                 <div id="herosignup" className="col p-2 ">
                     <h1 className="mb-4">Open a free demat and trading account online</h1>
                     <h4>Start investing brokerage free and join a community of 1.6+ crore investors and traders</h4>
                 </div>
             </div>
-             <div  style={{padding:"6rem"}} className="row">
-                <div className="col-6 p-5">
+             <div id="signuprow"  style={{padding:"6rem"}} className="row">
+                <div className="col-md-6 p-5">
                     <img src="media/image/account_open.svg" alt="signup-image"/>
                 </div>
-                 <div id="inputfield" className="col-6 p-5">
+                 <div id="inputfield" className="col-md-6 p-5">
                     <h2>
                         Signup now
                     </h2>
