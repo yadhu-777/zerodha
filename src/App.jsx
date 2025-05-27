@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import Navbar from './navbar'
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Footer from './footer'
@@ -9,9 +9,15 @@ import Product from './components/products/product'
 import Support from './components/support/support'
 import Signup from './components/signup/signup'
 import Login from './login/login'
+import axios from "axios"
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
+
+  
+
+
 
   return (
     <>
