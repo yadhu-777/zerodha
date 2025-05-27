@@ -12,7 +12,7 @@ export default function Home() {
 
   useEffect(() => {
     async function check() {
-      try {
+  
         const { data } = await axios.post(
           "https://zerodhabackend-tszm.onrender.com/verify",
           { withCredentials: true }
@@ -22,12 +22,10 @@ export default function Home() {
           setIsSignedIn(true); // User is signed in
           console.log("User is signed in.");
         }
-      } catch (error) {
-        console.log("Verification failed", error);
-      }
+      
     }
     check();
-  }, []);
+  });
 
   return (
     <>
