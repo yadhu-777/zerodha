@@ -10,7 +10,7 @@ import axios from "axios";
 export default function Home() {
   const [isSignedIn, setIsSignedIn] = useState(false); // default to not signed in
 
-  useEffect(() => {
+
     async function check() {
       try {
         const { data } = await axios.get(
@@ -27,7 +27,7 @@ export default function Home() {
       }
     }
     check();
-  }, []);
+ 
 
   return (
     <>
