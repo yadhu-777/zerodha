@@ -104,6 +104,7 @@ body,html{
 .tadejump{
     display: flex;
     padding: 1rem;
+    width: 80%;
 }
 
 #award-img{
@@ -115,16 +116,75 @@ body,html{
     width: 100%;
 }
 
+
+.navfirst{
+    display: flex;
+   margin: auto;
+   padding: 2rem;
+}
+
 @media (max-width:1000px){
+
+#founder-heading{
+    font-size: 1.2rem;
+}
+    #founderdef{
+        padding: 2rem !important;
+    }
+
+#founder-div{
+   display: flex;
+   justify-content: center;
+   padding: 1rem !important;
+}
+
+
+#imgfounder{
+    margin: 0rem !important;
+    padding: 0rem !important;
+}
+
+
+#aboutstart{
+    padding: 9px;
+    margin: 0rem !important;
+}
+
+
+.navfirst{
+   
+   padding: 4px;
+   margin-top: 10px;
+   
+}
+
+
+    .dropdown-item{
+        padding: 0rem !important;
+      
+    }
 
 
 #signuprow{
     padding: 0rem !important;
 }
+#imgnav{
+    flex: 1;
 
+}
+#anc{
+    flex: 1;
+}
+
+#edubox{
+    padding: 1rem !important;
+}
+#varsity-img{
+    margin-bottom: 1rem;
+}
 
     #herosignup > h1 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
       #herosignup > h4 {
         font-size: 14px;
@@ -154,22 +214,64 @@ body,html{
     display: flex;
     flex-wrap: wrap !important;
 }
+#charge-div{
+    padding: 0rem !important;
+}
+#charge-div1{
+    padding: 9px !important;
+}
+#login-div{
+    
+    padding: 0rem !important;
+}
+
+.loginDiv{
+    width: 100% !important;
+    padding: 0rem !important;
+}
 
 #directionchange2{
-    display: flex;
-    flex-direction: column-reverse;
+    display: flex !important;
+    flex-direction: column-reverse !important;
  margin-top: 0rem !important;
  padding: 0 !important;
 }
+#price-div{
+    padding: 1rem !important;
+}
+
+#award-div{
+    padding: 1rem !important;
+}
+
+
+#rightimg{
+    padding: 2rem;
+}
+#firstleft{
+    margin: 0rem !important;
+}
+
+#hero{
+  margin: 1.5rem 0rem 0rem 0rem !important;
+}
 
 #stabalize{
-   padding: 1rem;
+   padding: 1rem !important;
+}
+
+#stabalize1{
+   padding: 1rem !important;
+   width: 100% !important;
 }
 
 .tadejump{
-    display: flex;
-padding: 2rem;
-   flex-wrap: wrap;
+   margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+  
 }
 
 .tadejump #optionss{
@@ -178,12 +280,11 @@ padding: 2rem;
 .tadejump .navfirst{
    display: flex;
    justify-content: center;
-   margin-bottom: 1rem;
+  
+  
 }
 
-#imgnav{
-    flex: 1;
-}
+
 
 
 #navoptions{

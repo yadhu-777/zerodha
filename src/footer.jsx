@@ -4,7 +4,7 @@ export default function Footer(){
 <div className="container">
 <div id="footerfirstchange"  style={{padding:"1rem"}} className="row mt-5 ">
     <div id="icons"  className="col p-4 ">
-<img style={{width:"50%", marginBottom:"1rem"}} src="media/image/logo.svg" alt="" />
+<img  style={{width:"50%", marginBottom:"1rem"}} src="media/image/logo.svg" alt="" />
 <p style={{fontSize:"13px"}}>© 2010 - 2025, Zerodha Broking Ltd.All rights reserved.</p>
 <i class="fa-brands fa-square-instagram"></i>
 <i class="fa-brands fa-square-x-twitter"></i>

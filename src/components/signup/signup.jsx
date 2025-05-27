@@ -78,7 +78,7 @@ setInputval(
                 </div>
             </div>
              <div id="signuprow"  style={{padding:"6rem"}} className="row">
-                <div className="col-md-6 p-5">
+                <div id="signupimg" className="col-md-6 p-5">
                     <img src="media/image/account_open.svg" alt="signup-image"/>
                 </div>
                  <div id="inputfield" className="col-md-6 p-5">

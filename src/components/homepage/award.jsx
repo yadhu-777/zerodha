@@ -9,7 +9,7 @@ export default function Award(){
 
 
             </div>
-            <div className="col-md-6 p-5">
+            <div id="award-div" className="col-md-6 p-5">
                <h2>
                   
 Largest stock broker in india

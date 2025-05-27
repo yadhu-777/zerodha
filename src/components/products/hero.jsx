@@ -1,7 +1,7 @@
 export default function Hero(){
     return(
         <div className="container">
-            <div className="row text-center mb-5">
+            <div id="hero" className="row text-center mb-5">
                 <div className="col">
                     <h1>Zerodha Products</h1>
                     <h4>Sleek, modern, and intuitive trading platforms</h4>

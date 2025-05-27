@@ -8,12 +8,12 @@ export default function People(){
 
             </div>
             <div className="row">
-                <div className="col-6 p-5">
+                <div id="founder-div" className="col-md-6 p-5">
 
-<img style={{width:"50%" , borderRadius:"10rem",marginLeft:"9rem"}} src="media/image/nithinKamath.jpg" alt="founder"/>
+<img id="imgfounder" style={{width:"50%" , borderRadius:"10rem",marginLeft:"9rem"}} src="media/image/nithinKamath.jpg" alt="founder"/>
 
                 </div>
-                <div style={{padding:"5rem"}} className="col-6">
+                <div id="founderdef" style={{padding:"5rem"}} className="col-md-6">
 <p>
 
 Nithin bootstrapped and founded Zerodha in 2010 to overcome the hurdles he faced during his decade long stint as a trader. Today, Zerodha has changed the landscape of the Indian broking industry.</p>

@@ -2,8 +2,8 @@ export default function Charges(){
     return(
 
         <div className="container">
-            <div className="row p-5">
-                <div className="col-6 p-5">
+            <div id="charge-div" className="row p-5">
+                <div id="charge-div1"  className="col-6 p-5">
 <h3 className="mb-5">Brokerage calculator</h3>
 <ul style={{lineHeight:"2rem"}}>
 
@@ -16,7 +16,7 @@ export default function Charges(){
 </ul>
 
                 </div>
-                <div className="col-6 p-5">
+                <div id="charge-div"  className="col-6 p-5">
 
 <h3 className="mb-5">List of charges</h3>
                 </div>

@@ -3,8 +3,8 @@
 export default function Rightimg({source,heading,description,learnmore}){
     return(
         <div className="container">
-            <div style={{marginTop:"5rem"}} className="row p-5 ">
-                <div className="col-6">
+            <div id="directionchange2" style={{marginTop:"5rem"}} className="row p-5 ">
+                <div id="rightimg" className="col-md-6">
                 <h2>{heading}</h2>
 <p>{description}</p>
 <div>
@@ -17,9 +17,9 @@ export default function Rightimg({source,heading,description,learnmore}){
 </div>
 
                 </div>
-                <div  className="col-6">
+                <div  className="col-md-6">
                     
-                <img style={{width:"80%"}} src={source}/>
+                <img id="stabalize1" style={{width:"80%"}} src={source}/>
                 </div>
             </div>
         </div>

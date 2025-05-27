@@ -4,12 +4,12 @@
 export default function Leftimg({source,heading,description,trydemo,learnmore}){
     return(
         <div className="container">
-            <div style={{marginTop:"5rem"}} className="row p-6 ">
-                <div className="col-6">
-<img style={{width:"70%"}} src={source}/>
+            <div id="firstleft" style={{marginTop:"5rem"}} className="row p-6 ">
+                <div className="col-md-6">
+<img id="stabalize1" style={{width:"70%"}} src={source}/>
 
                 </div>
-                <div style={{padding:"3rem"}} className="col-6">
+                <div style={{padding:"3rem"}} className="col-md-6">
                     <h2>{heading}</h2>
 <p>{description}</p>
 <div style={{textDecoration:"none"}}>

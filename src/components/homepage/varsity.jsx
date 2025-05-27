@@ -7,7 +7,7 @@ export default function Varsity(){
                 <div className="col-md-6 ">
                     <img id="varsity-img" src="media/image/education.svg"/>
                 </div>
-                <div style={{padding:"5rem"}} className="col-md-6 ">
+                <div id="edubox" style={{padding:"5rem"}} className="col-md-6 ">
                     <h2>
                     Free and open market education</h2>
                     <p>Varsity, the largest online stock market education book in the world covering everything from the basics to advanced trading.</p>
