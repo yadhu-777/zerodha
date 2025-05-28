@@ -1,11 +1,11 @@
-import { useState  } from "react"
+import { useState ,useContext } from "react"
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
-
+import { Signcontext } from "./signcontext";
 export default function Signup(){
 
-
+ const {setSignnn} = useContext(Signcontext);
       const navigate = useNavigate();
 let [inputval,setInputval] = useState({
     name:"",
@@ -25,7 +25,9 @@ toast.success(msg, {
       position: "top-right",
 }
 
-)
+
+),
+setSignnn(false)
 }
  const handleError = (err) =>{
     toast.error(err, {

@@ -6,7 +6,7 @@ import Varsity from "./varsity";
 import Account from "../../account";
 import { useState, useEffect, useContext } from "react";
 import axios from "axios";
-import { Signcontext } from "./signcontext";
+
 export default function Home() {
   const [isSignedIn, setIsSignedIn] = useState(true);
 
@@ -24,7 +24,7 @@ export default function Home() {
 
         if (data.status) {
           setIsSignedIn(false);
-          setSignnn(false)
+       
         
         }
       
