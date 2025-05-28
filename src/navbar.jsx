@@ -22,7 +22,7 @@ export default function Navbar(){
             <Link   id="options"    className="nav-link active" to={"/Product"}>Product</Link>
             <Link   id="options"   className="nav-link active" to={"/Price"}>Pricing</Link>
             <Link   id="options"   className="nav-link active" to={"/Support"}>Support</Link>
-               <Link   id="options"   className="nav-link active" to={"/Login"}>Login</Link>
+              {Signnn && <Link   id="options"   className="nav-link active" to={"/Login"}>Login</Link>}
                   </div>
           <div class="dropdown">
     <button className="btn btn-white " type="button" id="hamburgerDropdown" data-bs-toggle="dropdown" aria-expanded="false">
