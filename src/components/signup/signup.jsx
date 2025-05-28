@@ -26,8 +26,8 @@ toast.success(msg, {
 }
 
 
-),
-setSignnn(false)
+)
+
 }
  const handleError = (err) =>{
     toast.error(err, {
@@ -48,6 +48,7 @@ try{
 const {message,success} = data;
 if(success){
     successHandle(message)
+    setSignnn(false)
     setTimeout(()=>{
         navigate("/")
     },1000);
