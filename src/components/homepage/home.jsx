@@ -4,7 +4,7 @@ import Trust from "./trust";
 import Price from "./price";
 import Varsity from "./varsity";
 import Account from "../../account";
-import { useState, useEffect, useContext } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 
 export default function Home() {

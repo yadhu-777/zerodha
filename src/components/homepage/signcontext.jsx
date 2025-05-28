@@ -3,15 +3,15 @@
 import { createContext, useState } from "react";
 
 
-export const SignContext = createContext();
+export const Signcontext = createContext();
 
 export  function SignedContextprovider({children}){
 let[Signnn,setSignnn] = useState(false);
 
     return(
-        <SignContext.Provider value={{Signnn,setSignnn}} >
+        <Signcontext.Provider value={{Signnn,setSignnn}} >
 {children}
-        </SignContext.Provider>
+        </Signcontext.Provider>
 
     )
 }
