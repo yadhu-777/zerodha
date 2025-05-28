@@ -3,15 +3,15 @@ import { toast } from "react-toastify";
 import {Link} from "react-router-dom"
 import { Signcontext } from "./components/homepage/signcontext";
 import { useContext } from "react";
-import { ToastContainer } from "react-toastify";
+
 
 
 export default function Navbar(){
 const {Signnn} = useContext(Signcontext);
   function Checkwidth(e){
-   
+    e.preventDefault();
     if(window.innerWidth < 950){
-       e.preventDefault();
+      
       toast.error("Kite Trading Platform is not supported on mobile devices.",{
         position:"top-center"
       });
