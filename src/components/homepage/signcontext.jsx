@@ -5,7 +5,7 @@ import { useContext } from "react";
 
 export const Signcontext = createContext();
 
-export default function SignedContextprovider({children}){
+export  function SignedContextprovider({children}){
 let[Signnn,setSignnn] = useState(false);
 
     return(
