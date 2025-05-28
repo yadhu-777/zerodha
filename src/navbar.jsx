@@ -9,10 +9,10 @@ import { ToastContainer } from "react-toastify";
 export default function Navbar(){
 const {Signnn} = useContext(Signcontext);
   function Checkwidth(e){
-    e.preventDefault();
+   
     if(window.innerWidth < 950){
       toast.error("Kite Trading Platform is not supported on mobile devices.",{
-        position:"bottom-center"
+        position:"top-center"
       });
     }
     else  window.open("https://dashboard-yadhu-777s-projects.vercel.app/", "_blank");
