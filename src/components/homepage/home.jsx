@@ -35,7 +35,7 @@ export default function Home() {
       <Trust />
       <Price />
       <Varsity />
-      {!isSignedIn && <Account />}
+      {isSignedIn && <Account />}
     </>
   );
 }
