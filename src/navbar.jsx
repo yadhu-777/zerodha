@@ -7,7 +7,7 @@ import { ToastContainer } from "react-toastify";
 
 
 export default function Navbar(){
-
+const {Signnn} = useContext(Signcontext);
   function Checkwidth(e){
     e.preventDefault();
     if(window.innerWidth < 950){
@@ -19,7 +19,7 @@ export default function Navbar(){
   }
 
 
-
+  
     return(
       <nav  id="navloc" className="navbar navbar-expand-lg bg-body-tertiary  mb-2 ">
       <div id="outnav" class="container">
