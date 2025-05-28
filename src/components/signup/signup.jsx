@@ -30,7 +30,7 @@ toast.success(msg, {
 }
 
 
-)
+);
 
 }
  const handleError = (err) =>{
