@@ -14,6 +14,7 @@ export default function Navbar(){
         position:"top-center"
       });
     }
+    else return
   }
 
 
