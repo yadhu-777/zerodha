@@ -24,13 +24,13 @@ setInputval({
 function successhandle(msg){
     setSignnn(false),
 toast.success(msg, {
-      position: "bottom-left",
+      position: "top-center",
     })
 }
 
 function errhandle(msg){
 toast.error(msg, {
-      position: "bottom-left",
+      position: "top-center",
     })
 }
 

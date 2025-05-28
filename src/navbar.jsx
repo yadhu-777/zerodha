@@ -54,7 +54,7 @@ export default function Navbar(){
       <div className="tadejump">
        
   <div className="first">
-     <Link id="optionss" className="nav-link active" to={"/Signup"}>Signup</Link>
+   { Signnn &&    <Link id="optionss" className="nav-link active" to={"/Signup"}>Signup</Link>}
             <Link id="optionss"  className="nav-link active" to={"/About"}>About</Link>
             <Link   id="optionss"    className="nav-link active" to={"/Product"}>Product</Link>
 
@@ -63,7 +63,7 @@ export default function Navbar(){
   
               <Link   id="optionss"   className="nav-link active" to={"/Price"}>Pricing</Link>
             <Link   id="optionss"   className="nav-link active" to={"/Support"}>Support</Link>
-               <Link   id="optionss"   className="nav-link active" to={"/Login"}>Login</Link>
+             {  Signnn &&    <Link   id="optionss"   className="nav-link active" to={"/Login"}>Login</Link>}
 </div>
       </div>
     </ul>
