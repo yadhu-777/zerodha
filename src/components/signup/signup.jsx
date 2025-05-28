@@ -24,7 +24,7 @@ function userval(e){
    })
 }
 const successHandle=(msg)=>{
-    setSignnn(false);
+   
 toast.success(msg, {
       position: "top-center",autoClose:2000
 }
@@ -56,6 +56,7 @@ if(success){
     setTimeout(()=>{
         navigate("/")
     },1000);
+     setSignnn(false);
 }
 else{
     handleError(message);
