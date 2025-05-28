@@ -8,20 +8,20 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 export default function Home() {
-  const [isSignedIn, setIsSignedIn] = useState(true); // default to not signed in
+  const [isSignedIn, setIsSignedIn] = useState(true);
 
   useEffect(() => {
     async function check() {
   
         const { data } = await axios.post(
           "https://zerodhabackend-tszm.onrender.com/verify",
-           {},
+          
           { withCredentials: true }
         );
 
         if (data.status) {
-          setIsSignedIn(false); // User is signed in
-          console.log("User is signed in.");
+          setIsSignedIn(false);
+        
         }
       
     }
