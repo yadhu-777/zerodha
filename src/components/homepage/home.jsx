@@ -26,6 +26,7 @@ export default function Home() {
       
     }
      check();
+     console.log("first")
    },6000)
    
   }, []);
