@@ -63,17 +63,20 @@ export default function Navbar(){
   
               <Link   id="optionss"   className="nav-link active" to={"/Price"}>Pricing</Link>
             <Link   id="optionss"   className="nav-link active" to={"/Support"}>Support</Link>
-             {  Signnn &&    <Link   id="optionss"   className="nav-link active" to={"/Login"}>Login</Link>}
+             {   Signnn &&    <Link   id="optionss"   className="nav-link active" to={"/Login"}>Login</Link>}
 </div>
       </div>
     </ul>
 </div>
+<ToastContainer/>
 
   </div>
-
+ 
        
         </div>
- 
+  
     </nav>
+      
     )
+   
 }
