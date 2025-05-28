@@ -24,6 +24,7 @@ function userval(e){
    })
 }
 function successHandle(msg){
+    setSignnn(false),
 toast.success(msg, {
       position: "top-right",
 }
@@ -51,7 +52,7 @@ try{
 const {message,success} = data;
 if(success){
     successHandle(message)
-    setSignnn(false)
+    
     setTimeout(()=>{
         navigate("/")
     },1000);
