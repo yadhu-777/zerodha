@@ -4,11 +4,14 @@ import Trust from "./trust";
 import Price from "./price";
 import Varsity from "./varsity";
 import Account from "../../account";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import axios from "axios";
-
+import { Signcontext } from "./signcontext";
 export default function Home() {
   const [isSignedIn, setIsSignedIn] = useState(true);
+
+ const {setSignnn} = useContext(Signcontext);
+
 
   useEffect(() => {
     async function check() {
@@ -21,6 +24,7 @@ export default function Home() {
 
         if (data.status) {
           setIsSignedIn(false);
+          setSignnn(false)
         
         }
       

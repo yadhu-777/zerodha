@@ -10,7 +10,7 @@ import Support from './components/support/support'
 import Signup from './components/signup/signup'
 import Login from './login/login'
 import axios from "axios"
-
+import {SignedContextprovider} from './components/homepage/signcontext'
 
 function App() {
 
@@ -21,6 +21,9 @@ function App() {
 
   return (
     <>
+
+
+<SignedContextprovider>
 <BrowserRouter>
 <Navbar/>
 <Routes>
@@ -37,6 +40,7 @@ function App() {
      <Footer/>
 
 </BrowserRouter>
+</SignedContextprovider>
 
  
     </>
