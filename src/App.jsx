@@ -9,9 +9,9 @@ import Product from './components/products/product'
 import Support from './components/support/support'
 import Signup from './components/signup/signup'
 import Login from './login/login'
-import axios from "axios"
-import {SignedContextprovider} from './components/homepage/signcontext'
 
+import {SignedContextprovider} from './components/homepage/signcontext'
+import { ToastContainer } from "react-toastify";
 function App() {
 
 
@@ -41,7 +41,7 @@ function App() {
 
 </BrowserRouter>
 </SignedContextprovider>
-
+<ToastContainer/>
  
     </>
   )

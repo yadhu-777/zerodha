@@ -2,7 +2,7 @@
 import  { useState,useContext } from "react";
 import {  useNavigate } from "react-router-dom";
 import axios from "axios";
-import { ToastContainer, toast } from "react-toastify";
+import {  toast } from "react-toastify";
 import { Signcontext } from "../components/homepage/signcontext";
 export default function Login(){
     const {setSignnn} = useContext(Signcontext);
@@ -91,7 +91,7 @@ async function submit(e){
                 </div>
             </div>
         </div>
-        <ToastContainer/>
+     
       </div>
     )
 }
