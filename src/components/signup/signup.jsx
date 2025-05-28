@@ -2,10 +2,10 @@ import { useState ,useContext } from "react"
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
-import { Signcontext } from "../homepage/signcontext";
+import { SignContext } from "../homepage/signcontext";
 export default function Signup(){
 
- const {setSignnn} = useContext(Signcontext);
+ const {setSignnn} = useContext(SignContext);
       const navigate = useNavigate();
 let [inputval,setInputval] = useState({
     name:"",
