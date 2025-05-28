@@ -27,8 +27,11 @@ function userval(e){
 
 
 
+
  const handleError = (err) =>{
-   };
+    toast.error(err, {
+      position: "bottom-left",
+    })};
 
 async function Submithandle(e){
 e.preventDefault();
@@ -43,14 +46,15 @@ try{
 
 const {message,success} = data;
 if(success){
-   toast.error(message, {
-      position: "top-left",
-    })
-    setSignnn(false);
+   toast.success(msg, {
+      position: "top-right",
+     
+})
+    
     setTimeout(()=>{
         navigate("/")
     },1000);
-     
+     setSignnn(false);
 }
 else{
     handleError(message);
