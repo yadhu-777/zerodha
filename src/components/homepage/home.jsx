@@ -19,7 +19,7 @@ export default function Home() {
           { withCredentials: true }
         );
 
-        if (data.status) {
+        if (!data.status) {
           setIsSignedIn(true); // User is signed in
           console.log("User is signed in.");
         }
