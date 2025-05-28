@@ -10,7 +10,7 @@ import axios from "axios";
 export default function Home() {
   const [isSignedIn, setIsSignedIn] = useState(true);
 
- const {setSignnn} = useContext(Signcontext);
+
 
 
   useEffect(() => {
