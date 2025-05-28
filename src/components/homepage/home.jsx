@@ -24,7 +24,7 @@ export default function Home() {
 
         if (data.status) {
           setIsSignedIn(false);
-          setSignnn(false)
+          setSignnn(true)
         
         }
       
