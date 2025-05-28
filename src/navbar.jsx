@@ -2,7 +2,8 @@
 import { toast } from "react-toastify";
 import {Link} from "react-router-dom"
 import { Signcontext } from "./components/homepage/signcontext";
-import { useContext } from "react"
+import { useContext } from "react";
+import { ToastContainer } from "react-toastify";
 
 
 export default function Navbar(){
@@ -72,7 +73,7 @@ export default function Navbar(){
 
        
         </div>
-    
+    <ToastContainer/>
     </nav>
     )
 }
