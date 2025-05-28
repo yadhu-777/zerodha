@@ -46,7 +46,7 @@ try{
 
 const {message,success} = data;
 if(success){
-   toast.success(msg, {
+   toast.success(message, {
       position: "top-right",
      
 })
