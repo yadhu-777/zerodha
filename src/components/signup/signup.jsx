@@ -46,11 +46,11 @@ if(success){
    toast.error(message, {
       position: "top-left",
     })
-    
+    setSignnn(false);
     setTimeout(()=>{
         navigate("/")
     },1000);
-     setSignnn(false);
+     
 }
 else{
     handleError(message);
