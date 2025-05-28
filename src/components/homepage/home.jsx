@@ -11,7 +11,8 @@ export default function Home() {
   const [isSignedIn, setIsSignedIn] = useState(false); // default to not signed in
 
   useEffect(() => {
-    async function check() {
+   setInterval(()=>{
+     async function check() {
   
         const { data } = await axios.post(
           "https://zerodhabackend-tszm.onrender.com/verify",
@@ -24,6 +25,7 @@ export default function Home() {
         }
       
     }
+   },6000)
     check();
   }, []);
 
