@@ -224,6 +224,9 @@ body,html{
     
     padding: 0rem !important;
 }
+#support-div{
+    padding: 1rem !important;
+}
 
 .loginDiv{
     width: 100% !important;
