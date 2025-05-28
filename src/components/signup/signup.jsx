@@ -26,7 +26,7 @@ function userval(e){
 const successHandle=(msg)=>{
     setSignnn(false);
 toast.success(msg, {
-      position: "top-center",
+      position: "top-center",autoClose:2000
 }
 
 
