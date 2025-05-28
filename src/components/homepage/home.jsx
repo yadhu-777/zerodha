@@ -31,6 +31,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+        {isSignedIn && <Account />}
       <Award />
       <Trust />
       <Price />
