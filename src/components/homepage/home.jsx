@@ -25,8 +25,9 @@ export default function Home() {
         }
       
     }
+     check();
    },6000)
-    check();
+   
   }, []);
 
   return (
