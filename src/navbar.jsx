@@ -14,7 +14,7 @@ export default function Navbar(){
         position:"top-center"
       });
     }
-    else return
+    else  window.open("https://dashboard-yadhu-777s-projects.vercel.app/", "_blank");
   }
 
 
