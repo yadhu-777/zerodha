@@ -5,7 +5,7 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import { Signcontext } from "../components/homepage/signcontext";
 export default function Login(){
-    const {setSignn} = useContext(Signcontext);
+    const {setSignnn} = useContext(Signcontext);
  const navigate = useNavigate();
 let[inputval,setInputval ] = useState({
     "email":"",
@@ -22,7 +22,7 @@ setInputval({
 };
 
 function successhandle(msg){
-    setSignn(false),
+    setSignnn(false),
 toast.success(msg, {
       position: "bottom-left",
     })
