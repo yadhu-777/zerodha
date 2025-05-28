@@ -23,10 +23,10 @@ export default function Home() {
           setIsSignedIn(true); // User is signed in
           console.log("User is signed in.");
         }
-      
+      console.log(data);
     }
      check();
-     console.log("first")
+     
    },6000)
    
   }, []);
