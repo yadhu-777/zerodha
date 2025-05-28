@@ -15,7 +15,7 @@ export default function Home() {
   
         const { data } = await axios.post(
           "https://zerodhabackend-tszm.onrender.com/verify",
-          
+           {},
           { withCredentials: true }
         );
 
