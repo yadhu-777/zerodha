@@ -23,14 +23,14 @@ function userval(e){
     [name]: value
    })
 }
-const successHandle=(msg)=>{
+function successHandle(msg){
    
-toast.success(msg, {
-      position: "top-center",autoClose:2000
-}
+    toast.success(msg, {
+      position: "top-right",
+     
+})
 
 
-);
 
 }
  const handleError = (err) =>{
