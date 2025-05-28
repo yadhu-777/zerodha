@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 export default function Home() {
-  const [isSignedIn, setIsSignedIn] = useState(false); // default to not signed in
+  const [isSignedIn, setIsSignedIn] = useState(true); // default to not signed in
 
   useEffect(() => {
     async function check() {
@@ -20,7 +20,7 @@ export default function Home() {
         );
 
         if (data.status) {
-          setIsSignedIn(true); // User is signed in
+          setIsSignedIn(false); // User is signed in
           console.log("User is signed in.");
         }
       
