@@ -100,9 +100,10 @@ setInputval(
                         <input onChange={userval} name="password"  value={inputval.password}   placeholder="Enter your password" />
                         <button type="submit" style={{width:"30%",marginTop:"1rem"}} className="btn btn-primary">Signup</button>
                    </form>
-                     <ToastContainer />
+                    
                 </div>
             </div>
+             <ToastContainer />
         </div>
     )
 
