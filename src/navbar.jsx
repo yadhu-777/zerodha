@@ -12,7 +12,7 @@ const {Signnn} = useContext(Signcontext);
     e.preventDefault();
     if(window.innerWidth < 950){
       toast.error("Kite Trading Platform is not supported on mobile devices.",{
-        position:"top-center"
+        position:"bottom-center"
       });
     }
     else  window.open("https://dashboard-yadhu-777s-projects.vercel.app/", "_blank");
