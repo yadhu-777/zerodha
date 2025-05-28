@@ -1,7 +1,7 @@
 
 
 import {Link} from "react-router-dom"
-import { Signcontext } from "./components/homepage/signcontext"
+import { Signcontext } from "./components/homepage/signcontext";
 import { useContext } from "react"
 
 
@@ -17,7 +17,7 @@ export default function Navbar(){
        
         <div className="disapper" >
           <div id="navoptions" class="navbar-nav ms-auto">
-          {!Signnn &&  <Link id="options" className="nav-link active" to={"/Signup"}>Signup</Link>}
+          {Signnn &&  <Link id="options" className="nav-link active" to={"/Signup"}>Signup</Link>}
             <Link id="options"  className="nav-link active" to={"/About"}>About</Link>
             <Link   id="options"    className="nav-link active" to={"/Product"}>Product</Link>
             <Link   id="options"   className="nav-link active" to={"/Price"}>Pricing</Link>
