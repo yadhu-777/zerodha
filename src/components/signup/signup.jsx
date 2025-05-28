@@ -48,6 +48,7 @@ const {message,success} = data;
 if(success){
    toast.success(message, {
       position: "top-right",
+      autoClose:1000
      
 })
     
