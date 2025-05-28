@@ -23,20 +23,12 @@ function userval(e){
     [name]: value
    })
 }
-function successHandle(msg){
-   
-    toast.success(msg, {
-      position: "top-right",
-     
-})
 
 
 
-}
+
  const handleError = (err) =>{
-    toast.error(err, {
-      position: "bottom-left",
-    })};
+   };
 
 async function Submithandle(e){
 e.preventDefault();
@@ -51,7 +43,9 @@ try{
 
 const {message,success} = data;
 if(success){
-    successHandle(message)
+   toast.error(message, {
+      position: "top-left",
+    })
     
     setTimeout(()=>{
         navigate("/")
