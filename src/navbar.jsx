@@ -1,11 +1,22 @@
 
-
+import { toast } from "react-toastify";
 import {Link} from "react-router-dom"
 import { Signcontext } from "./components/homepage/signcontext";
 import { useContext } from "react"
 
 
 export default function Navbar(){
+
+  function Checkwidth(e){
+    e.preventDefault();
+    if(window.innerWidth < 950){
+      toast.error("Kite Trading Platform is not supported on mobile devices.",{
+        position:"top-center"
+      });
+    }
+  }
+
+
   const {Signnn} = useContext(Signcontext);
     return(
       <nav  id="navloc" className="navbar navbar-expand-lg bg-body-tertiary  mb-2 ">
@@ -35,7 +46,7 @@ export default function Navbar(){
     <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="hamburgerDropdown">
       <div className="navfirst">
  <img style={{width:"15%"}} src="media/image/tradekite.png"/>
-      <a className="dropdown-item" href="https://dashboard-yadhu-777s-projects.vercel.app/" target="blank">Kite - Trading platform</a>
+      <a onClick={Checkwidth} className="dropdown-item" href="https://dashboard-yadhu-777s-projects.vercel.app/" target="blank">Kite - Trading platform</a>
 
        </div>
       <div className="tadejump">
