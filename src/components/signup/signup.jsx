@@ -23,7 +23,7 @@ function userval(e){
     [name]: value
    })
 }
-function successHandle(msg){
+const successHandle=(msg)=>{
     setSignnn(false),
 toast.success(msg, {
       position: "top-center",
