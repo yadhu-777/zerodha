@@ -80,7 +80,7 @@ async function submit(e){
                    <div className="innerLogin">
                     <form onSubmit={submit} action="">
                         <label  htmlFor="">Email</label>
-                        <input onChange={inputsubmit} name="email" id="logininput" value={inputval.email}  type="email" placeholder="email"/>
+                        <input onChange={inputsubmit} name="email" id="loginitnput" value={inputval.email}  type="email" placeholder="email"/>
                             <label htmlFor="">password</label>
                         <input onChange={inputsubmit} name="password" value={inputval.password}  id="logininput" type="password" placeholder="password"/>
                         <button type="submit" id="btn" className="btn btn-primary">login</button>
