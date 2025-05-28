@@ -9,7 +9,7 @@ export  function SignedContextprovider({children}){
 let[Signnn,setSignnn] = useState(false);
 
     return(
-        <Signcontext.Provider value={{Signn,setSignn}} >
+        <Signcontext.Provider value={{Signnn,setSignnn}} >
 {children}
         </Signcontext.Provider>
 
