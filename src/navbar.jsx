@@ -11,6 +11,7 @@ const {Signnn} = useContext(Signcontext);
   function Checkwidth(e){
    
     if(window.innerWidth < 950){
+       e.preventDefault();
       toast.error("Kite Trading Platform is not supported on mobile devices.",{
         position:"top-center"
       });
