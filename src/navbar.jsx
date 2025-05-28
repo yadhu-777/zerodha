@@ -19,7 +19,7 @@ export default function Navbar(){
   }
 
 
-  const {Signnn} = useContext(Signcontext);
+
     return(
       <nav  id="navloc" className="navbar navbar-expand-lg bg-body-tertiary  mb-2 ">
       <div id="outnav" class="container">
@@ -68,10 +68,10 @@ export default function Navbar(){
       </div>
     </ul>
 </div>
-<ToastContainer/>
+
 
   </div>
- 
+ <ToastContainer/>
        
         </div>
   
